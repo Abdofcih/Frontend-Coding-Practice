@@ -4,5 +4,5 @@ const doJob = (num, callback) => {
   callback();
 };
 const myFunction = doJob(5, function() {
-  console.log("this - my code - run second");
+  console.log("this - my code - runs second");
 });
