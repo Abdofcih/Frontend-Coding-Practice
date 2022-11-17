@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <title>General Information</title>
+  </head>
+  <body>
+    <!-- top section -->
+    <div class="intro py-3 bg-white text-center">
+      <div class="container">
+        <h2 class="text-primary display-3 my-4 ">
+          General Information
+        </h2>
+      </div>
+    </div>
+    <div class="result py-4 d-none bg-light text-center">
+      <div class="container lead">
+        <p class="text-primary display-6 ">
+          Score is :
+          <span class="resultNum text-primary display-4 p-3">%0</span>
+        </p>
+      </div>
+    </div>
+    <div class="quiz py-4 bg-primary text-center">
+      <div class="container">
+        <h2 class="my-2 text-white">
+          Start the quiz
+        </h2>
+        <form action="" class="quiz-form form text-light">
+          <!-- Q1 -->
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              1. choose your type
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input id="q1a1" type="radio" name="q1" value="A" checked />
+              <label for="q1a1" class="form-check-label">
+                Male
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input id="q1a2" type="radio" name="q1" value="B" />
+              <label for="q1a2" class="form-check-label">
+                Female
+              </label>
+            </div>
+          </div>
+          <!-- q2 -->
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              2. Egypt capital is
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input id="q2a1" type="radio" name="q2" value="A" checked />
+              <label for="q2a1" class="form-check-label">
+                Giza
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input id="q2a2" type="radio" name="q2" value="B" />
+              <label for="q2a2" class="form-check-label">
+                cairo
+              </label>
+            </div>
+          </div>
+          <!-- q3 -->
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              3. your favourite hobby
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input id="q3a1" type="radio" name="q3" value="A" checked />
+              <label for="q3a1" class="form-check-label">
+                football
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input id="q3a2" type="radio" name="q3" value="B" />
+              <label for="q3a2" class="form-check-label">
+                swimming
+              </label>
+            </div>
+          </div>
+          <!-- q4 -->
+          <div class="my-5">
+            <p class="lead font-weight-normal">
+              4. what is your marital status
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input id="q4a1" type="radio" name="q4" value="A" checked />
+              <label for="q4a1" class="form-check-label">
+                maried
+              </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input id="q4a2" type="radio" name="q4" value="B" />
+              <label for="q4a2" class="form-check-label">
+                single
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
