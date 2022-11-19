@@ -1,0 +1,76 @@
+:root {
+  --main-clr: rgb(3, 11, 58);
+  --text-clr: #ffffff;
+  --width: 300px;
+  --secondary-clr: rgb(11, 24, 100);
+  --padding-xsm: 5px;
+  --padding-sm: 10px 5px;
+  --border-raduis-xsm: 5px;
+  --border-raduis: 10px;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: var(--text-clr);
+  background-color: var(--main-clr);
+
+  font-family: sans-serif;
+}
+.appTitle {
+  text-align: center;
+}
+.container {
+  max-width: var(--width);
+  margin: 20px auto;
+}
+form .container {
+  display: flex;
+  flex-direction: column;
+}
+form label {
+  margin: 5px;
+}
+form input {
+  flex-grow: grow;
+  padding: var(--padding-sm);
+  border-radius: var(--border-raduis);
+  border: none;
+}
+form input:focus {
+  outline: none;
+}
+.appTitle {
+  padding: 25px 0;
+}
+.todos {
+}
+.todo {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  background-color: var(--secondary-clr);
+  padding: var(--padding-sm);
+  border-radius: var(--border-raduis);
+  align-items: center;
+}
+.todo.filtered {
+  display: none;
+}
+
+.btn {
+  padding: var(--padding-xsm);
+  border-radius: var(--border-raduis-xsm);
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+.btn-delete {
+  background-color: red;
+  color: var(--text-clr);
+}
