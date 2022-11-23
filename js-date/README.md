@@ -1,3 +1,3 @@
 # Preview
 
-![ quiz dashboard](https://raw.githubusercontent.com/Abdofcih/Frontend-Coding-Practice/main/js-date/preview.PNG)
+![ date dashboard](https://raw.githubusercontent.com/Abdofcih/Frontend-Coding-Practice/main/js-date/preview.png)
