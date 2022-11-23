@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(26, 25, 25);
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+p,
+table,
+section {
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+}
+section {
+  margin: 30px auto;
+}
+p,
+span,
+tr {
+  background-color: rgb(56, 55, 55);
+}
+span {
+  padding: 10px;
+  font-size: 42px;
+  font-weight: bold;
+
+  margin: 0 10px;
+}
+
+p,
+td {
+  padding: 5px;
+}
+
+p {
+  margin-bottom: 25px;
+}
+table {
+  margin-bottom: 20px;
+}
